@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=latin,vietnamese);
+body{
+	background: #fff;
+	font-family: Roboto Condensed;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+.wrapper {
+  border: 1px solid #ccc;
+  box-shadow: 2px 3px 0 #ccc;
+  margin: 5% auto;
+  padding: 10px;
+  position: relative;
+  width: 500px;
+}
+.btn {
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 2px 3px 0 #ccc;
+  display: inline-block;
+  padding: 10px;
+  width: 50px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 1px 1px 0 #ccc;
+    background-color: #FF7C7B;
+}
+.point {
+  background: none repeat scroll 0 0 lightgreen;
+  border-radius: 3px;
+  color: #fff;
+  margin: 8px auto;
+  text-shadow: 1px 1px 0 #333;
+  width: 100px;
+}
+h3 {
+  background: none repeat scroll 0 0 green;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 27px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 0 #333;
+  text-transform: uppercase;
+  width: 100%;
+}
+h4 {
+    background: none repeat scroll 0 0 green;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 0 #333;
+    text-transform: uppercase;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.ball {
+  background: none repeat scroll 0 0;
+background-image: url(http://wiki.laptop.org/images/0/06/Watermelon.png);
+/*  border-radius: 50px;*/
+/*  box-shadow: 2px 2px 0 #ccc;*/
+  display: inline-block;
+  height: 40px;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+}
+.point {
+/*  background: none repeat scroll 0 0 black;*/
+  color: #fff;
+/*  margin: 8px auto;*/
+  text-shadow: 1px 1px 0 #333;
+/*  width: 153px;*/
+}
